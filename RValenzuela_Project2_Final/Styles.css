@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    width:80%;
+    margin:20px auto;
+}
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+}
+
+.primary-icon {
+    height: 60px;
+
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Intro .description a {
+    color: black;
+    text-decoration: bold;
+}
+
+
+.Intro {
+text-align: center;
+display: flex;
+flex-direction: column;
+margin: 20 px;
+box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+margin-bottom: 2%;
+background: #FAD7A060;
+opacity: .8;
+line-height: 1.4;
+font-family: sans-serif;
+border-radius: 5px;
+overflow: hidden;
+z-index: 0;
+padding: 4%;
+}
+
+
+.Intro .Card {
+position: relative;
+z-index: 0;
+height: 500px;
+}
+
+
+
+.Intro .Photo {
+position: absolute;
+top: 40px;
+right: 80px;
+bottom: 30px;
+left: 80px;
+background-size: cover;
+background-position: center;
+}
+
+
+.Footer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  z-index: 0;
+}
+
+.footer-icon {
+  z-index: 0;
+  height: 50px;
+  padding: 10px;
+}
+/*
+@media (min-width: 640px) {
+.Projects {
+ flex-direction: row;
+ max-width: 700px;
+}
+.Projects .meta {
+ flex-basis: 40%;
+ height: auto;
+}
+.Projects .description {
+ flex-basis: 60%;
+}
+.Projects.alt {
+ flex-direction: row-reverse;
+}
+}
+*/
